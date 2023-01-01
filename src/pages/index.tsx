@@ -28,10 +28,12 @@ export default function Home () {
               />
             <Button
               type="submit"
-              loading={true}
+              loading={false}
             >
             login
             </Button>
+
+            <a className={styles.text}>Não possui uma conta? Cadastre-se</a>
           </form>
         </div>
       </div>
