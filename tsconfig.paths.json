@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-  "rootDirs": ["src", "styles"],
+  "rootDirs": ["src", "styles", "public"],
   "baseUrl": ".",
   "paths": {
     "@/*": ["*"]
