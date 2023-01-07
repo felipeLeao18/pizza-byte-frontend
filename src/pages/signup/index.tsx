@@ -81,7 +81,7 @@ export default function SignUp () {
 
         <div className={styles.login}>
 
-          <h1>Cadastro</h1>
+          <h1>SignUp</h1>
           <form onSubmit={handleSubmit}>
             <Input placeholder="Digite seu nome" type="text"
               onChange={(e) => setName(e.target.value)}
@@ -101,11 +101,11 @@ export default function SignUp () {
               type="submit"
               loading={loading}
             >
-            Cadastrar
+            sign-up
             </Button>
 
             <Link href="/" className={styles.text}>
-              Já possui uma conta? Faça login.
+              Have an account already? Login!
             </Link>
 
           </form>
