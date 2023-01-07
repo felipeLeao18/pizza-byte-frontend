@@ -10,16 +10,15 @@
     filter: brightness(1.08);
   }
 
-
   &[disabled] {
-    svg{
+    svg {
       animation: animate 2s infinite;
     }
     cursor: not-allowed;
   }
 }
 
-.buttonText {
+.button buttonText {
   color: var(--white);
 }
 

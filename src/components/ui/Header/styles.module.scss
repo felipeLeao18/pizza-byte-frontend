@@ -1,8 +1,8 @@
-.headerContainer{
+.headerContainer {
   height: 5rem;
 }
 
-.headerContent{
+.headerContent {
   max-width: 1120px;
   height: 5rem;
   margin: 0 auto;
@@ -12,9 +12,9 @@
   align-items: center;
 }
 
-.menuNav{
+.menuNav {
   display: flex;
-  align-items:center;
+  align-items: center;
 
   a {
     color: var(--white);
@@ -27,20 +27,17 @@
       margin-left: 2rem;
     }
 
-    &:hover{
+    &:hover {
       color: var(--red-900);
     }
-
   }
-    button{
-      margin-left: 2rem;
-      background: transparent;
-      border: 0;
+  button {
+    margin-left: 2rem;
+    background: transparent;
+    border: 0;
 
-    &:hover{
+    &:hover {
       transform: scale(1.2);
     }
   }
-
-
 }
