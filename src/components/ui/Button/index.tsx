@@ -14,7 +14,7 @@ export function Button ({ loading, children, ...rest }: IButtonProps) {
     {...rest}
     >
       {
-      (loading ?? false)
+      (loading === true)
         ? (<FaSpinner color="#FFF" size={16}/>)
         : (
 
