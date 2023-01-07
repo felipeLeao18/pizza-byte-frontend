@@ -43,11 +43,11 @@ export default function Home () {
 
         <div className={styles.login}>
           <form onSubmit={handleLogin}>
-            <Input placeholder="Digite seu email" type="text"
+            <Input placeholder="Enter your email" type="text"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               />
-            <Input placeholder="Digite sua senha"
+            <Input placeholder="Enter your password"
               type="password"
               value={password}
 
@@ -62,7 +62,7 @@ export default function Home () {
             </Button>
 
             <Link href="/signup" className={styles.text}>
-              Não possui uma conta? Cadastre-se
+              Dont have an account? Sign-up
             </Link>
 
           </form>
